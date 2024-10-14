@@ -2,3 +2,8 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
   - kubernetes-dashboard/ks.yaml
+  - clusterissuer/ks.yaml
+  - ext-service-cloud/ks.yaml
+  - ext-service-home/ks.yaml
+  - myblocky/ks.yaml
+  - traefik/ks.yaml
