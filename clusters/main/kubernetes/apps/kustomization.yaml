@@ -7,3 +7,4 @@ resources:
   - ext-service-home/ks.yaml
   - myblocky/ks.yaml
   - traefik/ks.yaml
+  - ext-service-plex/ks.yaml
