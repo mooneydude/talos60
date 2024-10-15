@@ -35,6 +35,17 @@ spec:
     workload:
       exportarr:
         enabled: false
+    TZ: America/Chicago
+    global:
+      stopAll: false
+    service:
+      main:
+        type: ExternalIP
+        externalIP: ${RADARR_IP}
+        ports:
+          main:
+            protocol: http
+            port: 7878        
     ingress:
       main:
         enabled: true
