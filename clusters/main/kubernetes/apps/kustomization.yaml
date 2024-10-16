@@ -9,3 +9,5 @@ resources:
   - traefik/ks.yaml
   - ext-service-plex/ks.yaml
   - radarr/ks.yaml
+  - bitmagnet/ks.yaml
+  - qbittorrent/ks.yaml
